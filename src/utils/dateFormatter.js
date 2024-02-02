@@ -5,7 +5,6 @@ const showFormattedDate = (date) => {
 		day: "numeric",
 		hour: "numeric",
 		minute: "numeric",
-		second: "numeric",
 	}
 	return new Date(date).toLocaleDateString("en-US", options)
 }
